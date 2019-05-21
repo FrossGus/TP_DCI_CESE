@@ -170,20 +170,4 @@ Wire Wire Line
 Connection ~ 9450 3000
 Wire Wire Line
 	9450 3000 9200 3000
-Text Notes 9250 1400 0    50   ~ 0
-A. Data_P
-Text Notes 9250 1500 0    50   ~ 0
-A. Data_P
-Text Notes 9250 1600 0    50   ~ 0
-A. Data_P
-Text Notes 9250 1700 0    50   ~ 0
-A. Data_P
-Text Notes 9250 1850 0    50   ~ 0
-A. Data_P
-Text Notes 9250 2000 0    50   ~ 0
-A. Data_P
-Text Notes 9250 2100 0    50   ~ 0
-A. Data_P
-Text Notes 9250 2200 0    50   ~ 0
-A. Data_P
 $EndSCHEMATC
