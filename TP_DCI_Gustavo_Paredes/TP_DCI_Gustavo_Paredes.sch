@@ -173,17 +173,212 @@ Wire Wire Line
 Text Notes 9250 1400 0    50   ~ 0
 A. Data_P
 Text Notes 9250 1500 0    50   ~ 0
-A. Data_P
+A. Bus_GND
 Text Notes 9250 1600 0    50   ~ 0
-A. Data_P
+A. Data_N
 Text Notes 9250 1700 0    50   ~ 0
-A. Data_P
+B. Bus_GND
 Text Notes 9250 1850 0    50   ~ 0
-A. Data_P
+A. Bus_5V
 Text Notes 9250 2000 0    50   ~ 0
-A. Data_P
+B. Data_P
 Text Notes 9250 2100 0    50   ~ 0
-A. Data_P
+B. Bus_5V
 Text Notes 9250 2200 0    50   ~ 0
-A. Data_P
+B. Data_N
+NoConn ~ 10450 1800
+NoConn ~ 8900 1800
+Wire Notes Line width 20 style solid
+	7900 900  10950 900 
+Wire Notes Line width 20 style solid
+	10950 900  10950 3500
+Wire Notes Line width 20 style solid
+	10950 3500 7900 3500
+Text Notes 8100 3350 0    50   ~ 0
+Connection acc.: IEC61375-3
+$Comp
+L Device:R R?
+U 1 1 5CE42F3F
+P 5150 1200
+F 0 "R?" H 5220 1246 50  0000 L CNN
+F 1 "R" H 5220 1155 50  0000 L CNN
+F 2 "" V 5080 1200 50  0001 C CNN
+F 3 "~" H 5150 1200 50  0001 C CNN
+	1    5150 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5CE430BC
+P 5150 1950
+F 0 "R?" H 5220 1996 50  0000 L CNN
+F 1 "R" H 5220 1905 50  0000 L CNN
+F 2 "" V 5080 1950 50  0001 C CNN
+F 3 "~" H 5150 1950 50  0001 C CNN
+	1    5150 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5CE430FA
+P 5150 2600
+F 0 "R?" H 5220 2646 50  0000 L CNN
+F 1 "R" H 5220 2555 50  0000 L CNN
+F 2 "" V 5080 2600 50  0001 C CNN
+F 3 "~" H 5150 2600 50  0001 C CNN
+	1    5150 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR?
+U 1 1 5CE43170
+P 5150 3550
+F 0 "#PWR?" H 5150 3300 50  0001 C CNN
+F 1 "GNDD" H 5154 3395 50  0000 C CNN
+F 2 "" H 5150 3550 50  0001 C CNN
+F 3 "" H 5150 3550 50  0001 C CNN
+	1    5150 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VPP #PWR?
+U 1 1 5CE4319F
+P 5150 850
+F 0 "#PWR?" H 5150 700 50  0001 C CNN
+F 1 "VPP" H 5165 1023 50  0000 C CNN
+F 2 "" H 5150 850 50  0001 C CNN
+F 3 "" H 5150 850 50  0001 C CNN
+	1    5150 850 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 2100 5150 2250
+Wire Wire Line
+	5150 2750 5150 3550
+Wire Wire Line
+	5150 750  5150 850 
+Wire Wire Line
+	8850 1400 7750 1400
+Wire Wire Line
+	8900 1600 7750 1600
+Connection ~ 8900 1600
+Wire Wire Line
+	5150 850  5150 1050
+Connection ~ 5150 850 
+Wire Wire Line
+	5150 1800 5150 1400
+Wire Wire Line
+	7500 1400 5150 1400
+Connection ~ 5150 1400
+Wire Wire Line
+	5150 1400 5150 1350
+Wire Wire Line
+	7500 1600 5450 1600
+Wire Wire Line
+	5450 1600 5450 2250
+Wire Wire Line
+	5450 2250 5150 2250
+Connection ~ 5150 2250
+Wire Wire Line
+	5150 2250 5150 2450
+Wire Wire Line
+	7750 1600 7500 1400
+Wire Wire Line
+	7750 1400 7500 1600
+$Comp
+L Device:R R?
+U 1 1 5CE4D6F2
+P 5150 4900
+F 0 "R?" H 5220 4946 50  0000 L CNN
+F 1 "R" H 5220 4855 50  0000 L CNN
+F 2 "" V 5080 4900 50  0001 C CNN
+F 3 "~" H 5150 4900 50  0001 C CNN
+	1    5150 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5CE4D6F9
+P 5150 5650
+F 0 "R?" H 5220 5696 50  0000 L CNN
+F 1 "R" H 5220 5605 50  0000 L CNN
+F 2 "" V 5080 5650 50  0001 C CNN
+F 3 "~" H 5150 5650 50  0001 C CNN
+	1    5150 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5CE4D700
+P 5150 6300
+F 0 "R?" H 5220 6346 50  0000 L CNN
+F 1 "R" H 5220 6255 50  0000 L CNN
+F 2 "" V 5080 6300 50  0001 C CNN
+F 3 "~" H 5150 6300 50  0001 C CNN
+	1    5150 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR?
+U 1 1 5CE4D707
+P 5150 7250
+F 0 "#PWR?" H 5150 7000 50  0001 C CNN
+F 1 "GNDD" H 5154 7095 50  0000 C CNN
+F 2 "" H 5150 7250 50  0001 C CNN
+F 3 "" H 5150 7250 50  0001 C CNN
+	1    5150 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VPP #PWR?
+U 1 1 5CE4D70D
+P 5150 4550
+F 0 "#PWR?" H 5150 4400 50  0001 C CNN
+F 1 "VPP" H 5165 4723 50  0000 C CNN
+F 2 "" H 5150 4550 50  0001 C CNN
+F 3 "" H 5150 4550 50  0001 C CNN
+	1    5150 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 5800 5150 5950
+Wire Wire Line
+	5150 6450 5150 7250
+Wire Wire Line
+	5150 4450 5150 4550
+Wire Wire Line
+	5150 4550 5150 4750
+Connection ~ 5150 4550
+Wire Wire Line
+	5450 5300 5450 5950
+Wire Wire Line
+	5450 5950 5150 5950
+Connection ~ 5150 5950
+Wire Wire Line
+	5150 5950 5150 6150
+Wire Wire Line
+	8850 2000 7750 2000
+Wire Wire Line
+	8900 2200 7750 2200
+Wire Wire Line
+	7750 2200 7500 2000
+Wire Wire Line
+	7750 2000 7500 2200
+Wire Wire Line
+	5150 5050 5150 5100
+Wire Wire Line
+	7500 2200 7500 5300
+Wire Wire Line
+	7500 5300 5450 5300
+Wire Wire Line
+	7500 2000 7400 2000
+Wire Wire Line
+	7400 2000 7400 5100
+Wire Wire Line
+	7400 5100 5150 5100
+Connection ~ 5150 5100
+Wire Wire Line
+	5150 5100 5150 5500
+Wire Notes Line width 20 style solid
+	7900 900  7900 3500
 $EndSCHEMATC
