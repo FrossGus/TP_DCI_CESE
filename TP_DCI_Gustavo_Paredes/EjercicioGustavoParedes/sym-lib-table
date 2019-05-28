@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name EjercicioGustavoParedes-rescue)(type Legacy)(uri ${KIPRJMOD}/EjercicioGustavoParedes-rescue.lib)(options "")(descr ""))
+)
