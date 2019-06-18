@@ -1060,6 +1060,8 @@ F 3 "www.nxp.com/documents/data_sheet/BAV99_SER.pdf" H 6050 7050 50  0001 C CNN
 	1    6050 6950
 	0    -1   -1   0   
 $EndComp
+Wire Wire Line
+	6300 3800 6300 3700
 Wire Bus Line
 	2250 1000 2250 4300
 $EndSCHEMATC
