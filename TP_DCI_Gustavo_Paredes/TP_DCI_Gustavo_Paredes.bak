@@ -930,16 +930,9 @@ Wire Wire Line
 Text Label 5800 5800 2    50   ~ 0
 B_Data_P
 Wire Wire Line
-	5550 7150 5800 7150
-Wire Wire Line
 	5550 6800 5550 6700
 Wire Wire Line
 	6050 6700 6050 6800
-Wire Wire Line
-	5800 7150 5800 7250
-Connection ~ 5800 7150
-Wire Wire Line
-	5800 7150 6050 7150
 Wire Wire Line
 	6050 6400 6050 5900
 Wire Wire Line
@@ -1062,6 +1055,75 @@ F 3 "www.nxp.com/documents/data_sheet/BAV99_SER.pdf" H 6050 7050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6300 3800 6300 3700
+$Comp
+L power:GNDPWR #PWR0121
+U 1 1 5D13F9B9
+P 6650 2350
+F 0 "#PWR0121" H 6650 2150 50  0001 C CNN
+F 1 "GNDPWR" H 6654 2196 50  0000 C CNN
+F 2 "" H 6650 2300 50  0001 C CNN
+F 3 "" H 6650 2300 50  0001 C CNN
+	1    6650 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 2350 6300 2350
+Connection ~ 6300 2350
+Wire Wire Line
+	5550 7150 5800 7150
+Wire Wire Line
+	5800 7250 5800 7150
+Connection ~ 5800 7150
+Wire Wire Line
+	5800 7150 6050 7150
+$Comp
+L power:GNDPWR #PWR0122
+U 1 1 5D14CE2D
+P 4250 7250
+F 0 "#PWR0122" H 4250 7050 50  0001 C CNN
+F 1 "GNDPWR" H 4254 7096 50  0000 C CNN
+F 2 "" H 4250 7200 50  0001 C CNN
+F 3 "" H 4250 7200 50  0001 C CNN
+	1    4250 7250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 7250 3600 7250
+Connection ~ 3600 7250
+Wire Wire Line
+	4800 7250 4250 7250
+Connection ~ 4800 7250
+Connection ~ 4250 7250
+$Comp
+L power:GNDPWR #PWR0123
+U 1 1 5D15A7B0
+P 6600 4700
+F 0 "#PWR0123" H 6600 4500 50  0001 C CNN
+F 1 "GNDPWR" H 6604 4546 50  0000 C CNN
+F 2 "" H 6600 4650 50  0001 C CNN
+F 3 "" H 6600 4650 50  0001 C CNN
+	1    6600 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 4700 6300 4700
+Connection ~ 6300 4700
+Wire Wire Line
+	5800 7250 4800 7250
+Connection ~ 5800 7250
+Wire Wire Line
+	3600 7250 2600 7250
+Connection ~ 2600 7250
+Text GLabel 950  1250 0    50   Output ~ 0
+P701
+Text Notes 600  1500 0    50   Italic 0
+Etiqueta Global\npara corregir ERC.
+Wire Wire Line
+	3500 2350 2950 2350
+Connection ~ 2950 2350
+Wire Wire Line
+	3500 4700 2950 4700
 Wire Bus Line
 	2250 1000 2250 4300
+Connection ~ 2950 4700
 $EndSCHEMATC
