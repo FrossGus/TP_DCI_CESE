@@ -1,0 +1,8 @@
+(fp_lib_table
+  (lib (name Connector_Dsub)(type KiCad)(uri "/home/gustavo/Documentos/KiCAD Huellas 3D/Connector_Dsub.3dshapes")(options "")(descr ""))
+  (lib (name lib_w_connectors)(type KiCad)(uri "/home/gustavo/Documentos/KiCAD Huellas 3D/lib_w_connectors")(options "")(descr ""))
+  (lib (name w_conn_d-sub)(type Legacy)(uri "/home/gustavo/Documentos/KiCAD Huellas 3D/mod_conn_d-sub/w_conn_d-sub.mod")(options "")(descr ""))
+  (lib (name conn_d-sub)(type KiCad)(uri "/home/gustavo/Documentos/KiCAD Huellas 3D/walter/conn_d-sub")(options "")(descr ""))
+  (lib (name 584-LTC1485CN8PBF-pcb-part-libraries)(type KiCad)(uri "/home/gustavo/Documentos/KiCAD Huellas 3D/584-LTC1485CN8PBF-pcb-part-libraries")(options "")(descr ""))
+  (lib (name LTC1485CN8#PBF)(type Legacy)(uri "/home/gustavo/Documentos/KiCAD Huellas 3D/LIB_LTC1485CN8#PBF/LTC1485CN8#PBF/KiCad/LTC1485CN8#PBF.mod")(options "")(descr ""))
+)
