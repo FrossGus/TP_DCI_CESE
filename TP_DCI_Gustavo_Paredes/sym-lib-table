@@ -1,2 +1,5 @@
 (sym_lib_table
+  (lib (name BiblioProyecto)(type Legacy)(uri ${KIPRJMOD}/BiblioProyecto.lib)(options "")(descr ""))
+  (lib (name TP_DCI_Gustavo_Paredes-rescue)(type Legacy)(uri ${KIPRJMOD}/TP_DCI_Gustavo_Paredes-rescue.lib)(options "")(descr ""))
+  (lib (name Mechanical)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Mechanical.lib)(options "")(descr ""))
 )
