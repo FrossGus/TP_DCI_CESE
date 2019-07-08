@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "KP99S RS485 PORT - Pagina 7/7"
-Date "2019-07-02"
-Rev "V3"
+Date "2019-07-08"
+Rev "V4"
 Comp "DCI - CESE UBA - 7ma Cohorte"
 Comment1 "Autor: Gustavo Fabian Paredes Delaloye"
 Comment2 "Revisor: Julian Bustamante"
@@ -1141,10 +1141,10 @@ F 3 "~" H 9100 6050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TP_DCI_Gustavo_Paredes-rescue:GNDD-power #PWR?
+L TP_DCI_Gustavo_Paredes-rescue:GNDD-power #PWR0111
 U 1 1 5D244500
 P 1200 2300
-F 0 "#PWR?" H 1200 2050 50  0001 C CNN
+F 0 "#PWR0111" H 1200 2050 50  0001 C CNN
 F 1 "GNDD" H 1204 2145 50  0000 C CNN
 F 2 "" H 1200 2300 50  0001 C CNN
 F 3 "" H 1200 2300 50  0001 C CNN
@@ -1152,10 +1152,10 @@ F 3 "" H 1200 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TP_DCI_Gustavo_Paredes-rescue:+5V-power #PWR?
+L TP_DCI_Gustavo_Paredes-rescue:+5V-power #PWR0121
 U 1 1 5D24455B
 P 1200 1800
-F 0 "#PWR?" H 1200 1650 50  0001 C CNN
+F 0 "#PWR0121" H 1200 1650 50  0001 C CNN
 F 1 "+5V" H 1215 1973 50  0000 C CNN
 F 2 "" H 1200 1800 50  0001 C CNN
 F 3 "" H 1200 1800 50  0001 C CNN
