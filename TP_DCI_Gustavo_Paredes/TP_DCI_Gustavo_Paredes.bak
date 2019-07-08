@@ -1140,10 +1140,10 @@ F 3 "~" H 10450 5800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Graphic:Logo_Open_Hardware_Large #LOGO?
+L Graphic:Logo_Open_Hardware_Large #LOGO101
 U 1 1 5D1F1F9F
 P 9100 6050
-F 0 "#LOGO?" H 9100 6550 50  0001 C CNN
+F 0 "#LOGO101" H 9100 6550 50  0001 C CNN
 F 1 "Logo_Open_Hardware_Large" H 9100 5650 50  0001 C CNN
 F 2 "" H 9100 6050 50  0001 C CNN
 F 3 "~" H 9100 6050 50  0001 C CNN

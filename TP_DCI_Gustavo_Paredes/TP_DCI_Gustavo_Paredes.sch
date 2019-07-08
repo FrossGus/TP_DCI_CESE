@@ -469,12 +469,12 @@ Wire Wire Line
 $Comp
 L TP_DCI_Gustavo_Paredes-rescue:PWR_FLAG-power #FLG0101
 U 1 1 5D294E70
-P 850 1950
-F 0 "#FLG0101" H 850 2025 50  0001 C CNN
-F 1 "PWR_FLAG" H 850 2124 50  0000 C CNN
-F 2 "" H 850 1950 50  0001 C CNN
-F 3 "~" H 850 1950 50  0001 C CNN
-	1    850  1950
+P 850 1800
+F 0 "#FLG0101" H 850 1875 50  0001 C CNN
+F 1 "PWR_FLAG" H 850 1974 50  0000 C CNN
+F 2 "" H 850 1800 50  0001 C CNN
+F 3 "~" H 850 1800 50  0001 C CNN
+	1    850  1800
 	1    0    0    -1  
 $EndComp
 Text Label 7600 4450 2    50   ~ 0
@@ -961,12 +961,12 @@ Connection ~ 6950 1700
 $Comp
 L TP_DCI_Gustavo_Paredes-rescue:PWR_FLAG-power #FLG0102
 U 1 1 5D3E4B4C
-P 850 2450
-F 0 "#FLG0102" H 850 2525 50  0001 C CNN
-F 1 "PWR_FLAG" H 600 2450 50  0000 C CNN
-F 2 "" H 850 2450 50  0001 C CNN
-F 3 "~" H 850 2450 50  0001 C CNN
-	1    850  2450
+P 850 2300
+F 0 "#FLG0102" H 850 2375 50  0001 C CNN
+F 1 "PWR_FLAG" H 850 2500 50  0000 C CNN
+F 2 "" H 850 2300 50  0001 C CNN
+F 3 "~" H 850 2300 50  0001 C CNN
+	1    850  2300
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -1067,34 +1067,24 @@ Wire Wire Line
 $Comp
 L TP_DCI_Gustavo_Paredes-rescue:Conn_01x02_Male-Connector J104
 U 1 1 5D4086E9
-P 650 2200
-F 0 "J104" H 650 2350 50  0000 L CNN
-F 1 "Conector +5V" V 600 1900 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 650 2200 50  0001 C CNN
-F 3 "~" H 650 2200 50  0001 C CNN
-	1    650  2200
+P 650 2050
+F 0 "J104" H 650 2200 50  0000 L CNN
+F 1 "Conector +5V" V 600 1750 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 650 2050 50  0001 C CNN
+F 3 "~" H 650 2050 50  0001 C CNN
+	1    650  2050
 	1    0    0    -1  
 $EndComp
-Connection ~ 2150 1050
-Connection ~ 1750 1200
 Wire Wire Line
-	1200 1050 2150 1050
+	850  2050 1200 2050
 Wire Wire Line
-	850  2200 1200 2200
+	850  2150 1200 2150
 Wire Wire Line
-	1200 2200 1200 1050
+	850  1800 850  2050
+Connection ~ 850  2050
+Connection ~ 850  2150
 Wire Wire Line
-	850  2300 1350 2300
-Wire Wire Line
-	1350 2300 1350 1200
-Wire Wire Line
-	1350 1200 1750 1200
-Wire Wire Line
-	850  1950 850  2200
-Connection ~ 850  2200
-Connection ~ 850  2300
-Wire Wire Line
-	850  2450 850  2300
+	850  2300 850  2150
 $Comp
 L Mechanical:MountingHole H101
 U 1 1 5D1F07B4
@@ -1150,4 +1140,30 @@ F 3 "~" H 9100 6050 50  0001 C CNN
 	1    9100 6050
 	1    0    0    -1  
 $EndComp
+$Comp
+L TP_DCI_Gustavo_Paredes-rescue:GNDD-power #PWR?
+U 1 1 5D244500
+P 1200 2300
+F 0 "#PWR?" H 1200 2050 50  0001 C CNN
+F 1 "GNDD" H 1204 2145 50  0000 C CNN
+F 2 "" H 1200 2300 50  0001 C CNN
+F 3 "" H 1200 2300 50  0001 C CNN
+	1    1200 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L TP_DCI_Gustavo_Paredes-rescue:+5V-power #PWR?
+U 1 1 5D24455B
+P 1200 1800
+F 0 "#PWR?" H 1200 1650 50  0001 C CNN
+F 1 "+5V" H 1215 1973 50  0000 C CNN
+F 2 "" H 1200 1800 50  0001 C CNN
+F 3 "" H 1200 1800 50  0001 C CNN
+	1    1200 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 2050 1200 1800
+Wire Wire Line
+	1200 2300 1200 2150
 $EndSCHEMATC
